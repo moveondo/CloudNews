@@ -72,7 +72,7 @@
 
 node版本要求较高 需要使用新版本的node
 
-升级node
+升级node(MAC版本)，windows直接下载覆盖原有版本即可
 
 ```shell
 ## 安装node的一个版本管理器n
@@ -82,7 +82,7 @@ npm install n -g
 n latest  
 
 ## 切换到某个固定的版本
-n ^7.6.0  
+n ^8.9.0  
 ```
 
 ## Build Setup
@@ -91,7 +91,7 @@ n ^7.6.0  
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8088
 npm run dev
 
 # build for production with minification
