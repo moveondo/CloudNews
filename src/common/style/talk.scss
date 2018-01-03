@@ -1,0 +1,89 @@
+.container {
+  position: fixed;
+  margin-top: 6px;
+  width: 100%;
+  height: 93%;
+  bottom: 0;
+  z-index: 3;
+  padding-bottom: 6%;
+  background-color: #E5E5E5;
+  overflow-y: auto;
+}
+.send {
+  display: flex;
+  position: fixed;
+  align-items:flex-end;
+  width: 100%;
+  bottom: 0;
+  height: 65px;
+}
+.input {
+  padding-left: 5px;
+  flex: 4;
+  height: 32px;
+  background-color: white;
+}
+button {
+  flex: 1;
+  height: 32px;
+  background-color: green;
+  color: #FFF;
+}
+.group {
+  width: 100%;
+  height: 70px;
+}
+.center {
+  padding: 10px 10px;
+}
+.jiqi {
+  display: flex;
+}
+.avatar {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: auto 5px;
+}
+.user1 {
+  color: green;
+}
+.text1 {
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: white;
+  width: 60%;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+.sending {
+  width: 100%;
+  height: 70px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 6px;
+}
+.person {
+  display: flex;
+}
+.user2 {
+  color: green;
+}
+.text2 {
+  margin-right: 40px;
+  margin-top: 10px;
+  background-color: white;
+  width: 60%;
+  border-radius: 5px;
+  padding: 3px 5px;
+}
+i.icon-yuyin {
+  width: 30px;
+  height: 30px;
+  background: url('../../common/icons/icon-yuyin.svg') no-repeat;
+  background-size: contain;
+}

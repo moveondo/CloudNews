@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // align-items: center;
+  padding-bottom: 50px;
+}
+.news {
+  display: flex;
+  width: 100%;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 3px 5px;
+  border-bottom: 1px solid #BEBEBE;
+}
+.title {
+  padding: 0 0;
+  flex: 2;
+  margin-bottom: 5px;
+}
+.pic {
+  flex:4;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.more {
+  flex: 1;
+  padding: 0 10px;
+  position: relative;
+  color: #000;
+}
+.pic img {
+  padding: 0 1px;
+  // flex: 1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 33%;
+  height: 80px;
+}
+.more span {
+  color: #7C7C7C;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+span img {
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-bottom: 3px;
+}
+.more .date {
+  position: absolute;
+  top: 5px;
+  right: 3px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

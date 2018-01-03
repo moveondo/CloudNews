@@ -1,0 +1,120 @@
+.container {
+  width: 100%;
+//   display: flex; // border-top: 10px solid green;
+  // border-bottom: 10px solid green;
+  position: relative;
+  font-size: 12px;
+  margin-top: 45px;
+
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  background-color: #254665;
+  padding: 15px 15px 10px 7px;
+  color: white;
+}
+
+.msg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.more {
+  margin-top: 30px;
+  flex: 1;
+}
+
+P {
+  margin-top: 5px;
+}
+
+h2 {
+  flex: .6;
+  text-align: center;
+  font-weight: 400;
+}
+
+.target {
+  flex: 1;
+}
+
+.background {
+  flex: 2;
+  margin-top: 10px;
+}
+
+.production {
+  flex: 3;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 10px;
+}
+
+.aa {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.bb {
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #1397EC;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.prox {
+
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.proy {
+  flex: 3;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #CDCDCD;
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  color: red;
+  height: 25px;
+}
+
+.bottom {
+  flex: 8;
+  padding: 8px 5px;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.pro_1 {
+  padding-left: 5px
+}
+
+.bottom {
+  margin-top: 6px;
+  line-height: 18px;
+}

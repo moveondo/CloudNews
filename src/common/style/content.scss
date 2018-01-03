@@ -1,0 +1,92 @@
+.container {
+  width: 120%;
+  position: relative;
+  .tab {
+    padding-top: 5px;
+    z-index: 2;
+    height: 38px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 44px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    .type {
+      flex: 1;
+      letter-spacing: 2px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}
+.isBorder {
+  padding-bottom: 2px;
+  border-bottom: 2px solid red;
+  font-size: 18px;
+  color: red;
+  a {
+    color: red;
+  }
+}
+a {
+  text-decoration: none;
+  color: #747474;
+}
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 80%;
+  height: 2px;
+  transform: scaleX(0);
+  transition: .3s ease-in-out;
+  color: red;
+}
+a:hover::after {
+  transform: scaleX(1);
+  transition: .3s ease-in-out;
+}
+.talk {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type {
+  flex: 1;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+}
+.fill {
+  height: 84px;
+  position: relative;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+}
+.icon-loading {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 40px;
+  height: 40px;
+  background: url('../../common/icons/icon-loading.svg') no-repeat;
+  animation: loading .4s linear infinite;
+  background-size: contain;
+}
+@keyframes loading {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

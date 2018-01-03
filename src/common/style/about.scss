@@ -1,0 +1,74 @@
+// .container {
+//   position: absolute;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   z-index: 2;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   width: 100%;
+//   height: 100%;
+//   // background-color: rgba(179, 179, 179, 0.8);
+// }
+.msg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  z-index: 5;
+  width: 80%;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 22px gray;
+  // margin: 5rem 8rem;
+  margin: 10% 10%;
+  overflow: auto;
+  background: white;
+  padding-left: 35px;
+  // color: #fff;
+}
+.close {
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../../pic/close.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 2%;
+  right: 2%;
+}
+.title {
+  flex: 1;
+}
+.content {
+  flex: 4;
+}
+.link {
+  flex: 2.5;
+}
+h2 {
+  display: block;
+  // font-size: 1.5rem;
+  text-align: center;
+  margin: 15px 20px;
+  color: red;
+}
+h3 {
+
+  display: inline-block;
+  opacity: .6;
+  margin-bottom: 10px;
+}
+.url {
+  padding-bottom: 10px;
+}
+//弹出动画

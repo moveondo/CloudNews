@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  position: fixed;
+  width: 110px;
+  height:35px;
+  top: 243px;
+  left: 135px;
+  z-index: 5;
+  padding: 8px 5px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  margin: auto 5px;
+  border-radius: 50%;
+}
+.red {
+  background-color: #BE0122;
+
+}
+.black {
+  background-color: #61689E;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
