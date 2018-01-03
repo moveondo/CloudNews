@@ -1,4 +1,4 @@
-# vue全家桶+node.js+socket打造云新闻社区
+# vue全家桶+node.js+socket打造新闻社区
 
 
  本文包括新闻页面，智能聊天界面，和登录注册功能，并区分是否登录和登录后状态进入聊天室。
@@ -101,4 +101,4 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
