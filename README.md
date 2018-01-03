@@ -5,12 +5,12 @@
 
 ## 项目截图
 
-![2](http://orhpccvvl.bkt.clouddn.com/J%5DUANDXLC3NAUKIUXJTNCQJ.png)
-![2](http://orhpccvvl.bkt.clouddn.com/9JOCX17RTQ%5DKVAK_~%7BIPE4L.png)
-![3](http://orhpccvvl.bkt.clouddn.com/_3%5D9U_N%29%7BVI%7DR1%25H%28@RS%60J7.png)
-![4](http://orhpccvvl.bkt.clouddn.com/%7B%251_G%60ZR5XURJ3SNK%25Z7V2Y.png)
-![5](http://orhpccvvl.bkt.clouddn.com/3@AXJ%282RUF3QPZBPN_THRL0.png)
-![6](http://orhpccvvl.bkt.clouddn.com/6S6OI%5B%5DYVT5K1RK8P%25%288AV0.png)
+![2](https://github.com/moveondo/CloudNews/blob/master/static/image/2.png)
+![2](https://github.com/moveondo/CloudNews/blob/master/static/image/3.png)
+![3](https://github.com/moveondo/CloudNews/blob/master/static/image/4.png)
+![4](https://github.com/moveondo/CloudNews/blob/master/static/image/5.png)
+![5](https://github.com/moveondo/CloudNews/blob/master/static/image/1.png)
+
 
 ## 注意事项
 
