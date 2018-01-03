@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>Vue Socket.io News</title>
+    <style>
+      #app {
+        position: relative;
+      }
+      body, html {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script> -->
+    <script src="https://microzz.com:3000/socket.io/socket.io.js"></script>
+    <script>
+      // Vue.prototype.socket = io.connect('http://localhost:8088/');
+        // var socket = io.connect('http://localhost:8088/');
+          const socket = io.connect('https://localhost:8088/');
+      //socket.emit();
+
+      // var socket = require('socket.io-client')('http://localhost/8080/', {
+      //     "transports": ['websocket', 'polling']
+      //   });
+    </script>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
