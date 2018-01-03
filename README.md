@@ -12,7 +12,7 @@
 
 如果没有登录状态：
 
-![6](https://github.com/moveondo/CloudNews/blob/master/static/image/6.png)
+![7](https://github.com/moveondo/CloudNews/blob/master/static/image/677.png)
 
 有登录状态时：
 
@@ -50,11 +50,14 @@ n ^7.6.0  
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8088
+# serve with hot reload at localhost:8080
 npm run dev
 
 # build for production with minification
 npm run build
 
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
+For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
