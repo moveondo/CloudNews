@@ -12,7 +12,7 @@
 
 如果没有登录状态：
 
-![7](https://github.com/moveondo/CloudNews/blob/master/static/image/677.png)
+![7](https://github.com/moveondo/CloudNews/blob/master/static/image/7.png)
 
 有登录状态时：
 
