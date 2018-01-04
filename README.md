@@ -36,7 +36,11 @@
 #### 注：此项目纯属个人爱好，代码测试及学习使用，不用做任何商业活动。
 
 >  如果你vue-cli不够熟悉建议参考 ![基于VUE2.5仿天猫移动端首页的SPA](https://github.com/moveondo/VUE-Taobao)
->  如果你node及node框架express，koa不够熟悉建议参考 ![node+ejs爬上海链家房屋价格(张江地区租房)信息,promise,eventproxy,express,koa框架使用](https://github.com/moveondo/nodeJs-Reptile)和 ![nodejs框架-Express,Koa](https://github.com/moveondo/NodeJsFrame)
+
+>  如果你node及node框架express，koa不够熟悉建议参考 ![node+ejs爬上海链家房屋价格(张江地区租房)信息,promise,eventproxy,express,koa框架使用](https://github.com/moveondo/nodeJs-Reptile)  
+和 ![nodejs框架-Express,Koa](https://github.com/moveondo/NodeJsFrame)
+
+> 如果你想学习全栈开发（node+vue全家桶）建议参考 ![全栈开发：vue全家桶+node 开发移动web](https://github.com/moveondo/FullStack-NodeVue)
 
 
 ### 目标功能
