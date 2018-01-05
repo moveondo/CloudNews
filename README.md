@@ -25,7 +25,7 @@ localStorage(HTML5)：本地存储，保存用户个性化设置。:blush:
 
 CSS3：CSS3动画及样式。:+1:
 
-Mysql:本地存储数据。
+Mysql:本地存储数据。:smirk:
 
 
 
